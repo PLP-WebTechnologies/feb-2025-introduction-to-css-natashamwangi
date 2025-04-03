@@ -1,0 +1,59 @@
+body{
+    background-color: beige;
+}
+
+.site-breadcrumb ul{
+    list-style: none;
+            padding: 0;
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+}
+
+.site-breadcrumb ul li{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.banner {
+    display: flex;
+    gap: 50px; /* Adds space between the image and h1 */
+    margin-bottom: 50px;
+    align-items: center; /* Aligns items center vertically */
+        
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+
+img{
+    border-radius: 10%;
+    border-width: 1px;
+}
+
+.main-content{
+    padding: 35px;
+}
+h1{
+    font-size: 20px;
+    font-weight: 300;
+    font-family:'Times New Roman', Times, serif;
+}
+span.title{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+footer{
+    margin-top: 35px;
+    text-align: center;
+}
